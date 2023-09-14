@@ -1,13 +1,13 @@
-package org.example.parallel;
+package org.example.parallel.parallel_classes;
 
 import lombok.SneakyThrows;
 import org.testng.annotations.Test;
 
-public class SecondParallelTest {
+public class FirstParallelTest {
 
     @Test
     @SneakyThrows
-    public void secondParallelTest() {
+    public void firstParallelTest() {
         Thread.sleep(5000);
     }
 
